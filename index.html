@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aura Developer</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#090909;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Arial,sans-serif;
+overflow:hidden;
+}
+
+.container{
+text-align:center;
+}
+
+h1{
+color:white;
+font-size:70px;
+font-weight:700;
+letter-spacing:4px;
+
+animation: glow 2s infinite alternate;
+}
+
+p{
+margin-top:15px;
+color:#666;
+font-size:18px;
+letter-spacing:8px;
+}
+
+@keyframes glow{
+from{
+text-shadow:
+0 0 10px rgba(255,255,255,0.2),
+0 0 20px rgba(255,255,255,0.2);
+}
+
+to{
+text-shadow:
+0 0 20px rgba(255,255,255,0.6),
+0 0 40px rgba(255,255,255,0.4);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Aura Developer</h1>
+<p>auradeveloper.ton</p>
+</div>
+
+</body>
+</html>
