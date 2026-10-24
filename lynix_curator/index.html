@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050a14">
+<meta name="description" content="LYNX Curators — библиотека знаний, полезных инструментов и возможностей. TM PROJECT.">
+<title>LYNX Curators · TM PROJECT</title>
+<link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ambient" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="header-inner shell">
+    <a href="#/" class="brand" aria-label="LYNX Curators — Главная">
+      <img src="assets/mark.svg" width="44" height="44" alt="">
+      <span class="brand-words"><strong>LYNX <span>Curators</span></strong><small>TM PROJECT</small></span>
+    </a>
+    <nav class="nav-links" id="nav" aria-label="Навигация">
+      <a data-nav="/" href="#/">Главная</a>
+      <a data-nav="/materials" href="#/materials">Материалы</a>
+      <a data-nav="/tools" href="#/tools">Инструменты</a>
+      <a data-nav="/statistics" href="#/statistics">Статистика</a>
+      <a data-nav="/about" href="#/about">О проекте</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-trigger" id="globalSearch" aria-label="Поиск"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.8"/><path d="m16 16 4.5 4.5"/></svg></button>
+      <button class="button button-outline login-btn" data-action="login"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5.5 20c.5-4 3-6 6.5-6s6 2 6.5 6"/></svg><span>Войти</span></button>
+      <button class="menu-btn icon-btn" id="menuToggle" aria-label="Открыть меню" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="footer">
+  <div class="shell footer-top">
+    <div><div class="footer-logo"><img src="assets/mark.svg" width="42" height="42" alt=""><div><b>LYNX Curators</b><small>TM PROJECT</small></div></div><p>Твоя библиотека знаний, возможностей и инструментов.</p></div>
+    <div class="footer-links"><a href="#/">Главная</a><a href="#/materials">Материалы</a><a href="#/tools">Инструменты</a><a href="#/statistics">Статистика</a><a href="#/about">О проекте</a></div>
+    <div class="footer-note"><span class="live-dot"></span> Дизайн-прототип v1.0<br><small>© 2026 LYNX Curators. TM PROJECT.</small></div>
+  </div>
+  <div class="shell footer-bottom">Создан для демонстрации интерфейса. Статистика и материалы являются примерами, не фактическими результатами.</div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="modal" class="modal-root" aria-hidden="true"></div>
+<script src="app.js" defer></script>
+</body></html>
