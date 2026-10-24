@@ -1,0 +1,416 @@
+[
+  {
+    "viewport": "desktop",
+    "page": "home",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 2619,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "LYNXCurators",
+        "size": "106px"
+      },
+      {
+        "text": "Рекомендуемые материалы",
+        "size": "27px"
+      },
+      {
+        "text": "Полный гайд по заработку в интернет",
+        "size": "15.5px"
+      },
+      {
+        "text": "Арбитраж трафика с нуля",
+        "size": "15.5px"
+      },
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "15.5px"
+      },
+      {
+        "text": "Продуктивность и саморазвитие",
+        "size": "15.5px"
+      },
+      {
+        "text": "Полезные инструменты",
+        "size": "27px"
+      },
+      {
+        "text": "Notion",
+        "size": "15px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "page": "materials",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 2747,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Обучающие материалы",
+        "size": "58px"
+      },
+      {
+        "text": "Полный гайд по заработку в интернет",
+        "size": "17px"
+      },
+      {
+        "text": "Арбитраж трафика с нуля",
+        "size": "17px"
+      },
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "17px"
+      },
+      {
+        "text": "Продуктивность и саморазвитие",
+        "size": "17px"
+      },
+      {
+        "text": "Telegram: запуск и развитие канала",
+        "size": "17px"
+      },
+      {
+        "text": "Дизайн для социальных сетей",
+        "size": "17px"
+      },
+      {
+        "text": "Как анализировать поисковый спрос",
+        "size": "17px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "page": "tools",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 1990,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Полезные инструменты",
+        "size": "58px"
+      },
+      {
+        "text": "Notion",
+        "size": "15px"
+      },
+      {
+        "text": "ChatGPT",
+        "size": "15px"
+      },
+      {
+        "text": "TradingView",
+        "size": "15px"
+      },
+      {
+        "text": "CapCut",
+        "size": "15px"
+      },
+      {
+        "text": "Telegram",
+        "size": "15px"
+      },
+      {
+        "text": "Figma",
+        "size": "15px"
+      },
+      {
+        "text": "Canva",
+        "size": "15px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "page": "statistics",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 1489,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Статистика проекта",
+        "size": "58px"
+      },
+      {
+        "text": "Динамика активности",
+        "size": "27px"
+      },
+      {
+        "text": "Что есть на платформе",
+        "size": "27px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "page": "about",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 1229,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "LYNX Curators",
+        "size": "58px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "page": "article",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 1833,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "58px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "home",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 4927,
+    "brokenImages": [
+      "assets/brands/notion.svg",
+      "assets/brands/chatgpt.svg",
+      "assets/brands/tradingview.svg",
+      "assets/brands/capcut.svg"
+    ],
+    "clippedText": [
+      {
+        "tag": "A",
+        "text": "Заработок8 материалов",
+        "client": 110,
+        "scroll": 133
+      },
+      {
+        "tag": "A",
+        "text": "Криптовалюта6 материалов",
+        "client": 110,
+        "scroll": 158
+      },
+      {
+        "tag": "A",
+        "text": "Маркетинг9 материалов",
+        "client": 110,
+        "scroll": 135
+      },
+      {
+        "tag": "A",
+        "text": "Развитие7 материалов",
+        "client": 110,
+        "scroll": 128
+      },
+      {
+        "tag": "A",
+        "text": "Инструменты11 материалов",
+        "client": 110,
+        "scroll": 154
+      },
+      {
+        "tag": "A",
+        "text": "Дизайн8 материалов",
+        "client": 110,
+        "scroll": 128
+      }
+    ],
+    "fontSamples": [
+      {
+        "text": "LYNXCurators",
+        "size": "50px"
+      },
+      {
+        "text": "Рекомендуемые материалы",
+        "size": "23px"
+      },
+      {
+        "text": "Полный гайд по заработку в интернет",
+        "size": "16px"
+      },
+      {
+        "text": "Арбитраж трафика с нуля",
+        "size": "16px"
+      },
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "16px"
+      },
+      {
+        "text": "Продуктивность и саморазвитие",
+        "size": "16px"
+      },
+      {
+        "text": "Полезные инструменты",
+        "size": "23px"
+      },
+      {
+        "text": "Notion",
+        "size": "15px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "materials",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 6497,
+    "brokenImages": [
+      "assets/brands/telegram.svg"
+    ],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Обучающие материалы",
+        "size": "33.15px"
+      },
+      {
+        "text": "Полный гайд по заработку в интернет",
+        "size": "17px"
+      },
+      {
+        "text": "Арбитраж трафика с нуля",
+        "size": "17px"
+      },
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "17px"
+      },
+      {
+        "text": "Продуктивность и саморазвитие",
+        "size": "17px"
+      },
+      {
+        "text": "Telegram: запуск и развитие канала",
+        "size": "17px"
+      },
+      {
+        "text": "Дизайн для социальных сетей",
+        "size": "17px"
+      },
+      {
+        "text": "Как анализировать поисковый спрос",
+        "size": "17px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "tools",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 3993,
+    "brokenImages": [
+      "assets/brands/telegram.svg",
+      "assets/brands/figma.svg",
+      "assets/brands/canva.svg",
+      "assets/brands/googletrends.svg",
+      "assets/brands/github.svg"
+    ],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Полезные инструменты",
+        "size": "33.15px"
+      },
+      {
+        "text": "Notion",
+        "size": "15px"
+      },
+      {
+        "text": "ChatGPT",
+        "size": "15px"
+      },
+      {
+        "text": "TradingView",
+        "size": "15px"
+      },
+      {
+        "text": "CapCut",
+        "size": "15px"
+      },
+      {
+        "text": "Telegram",
+        "size": "15px"
+      },
+      {
+        "text": "Figma",
+        "size": "15px"
+      },
+      {
+        "text": "Canva",
+        "size": "15px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "statistics",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 2187,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Статистика проекта",
+        "size": "33.15px"
+      },
+      {
+        "text": "Динамика активности",
+        "size": "23px"
+      },
+      {
+        "text": "Что есть на платформе",
+        "size": "23px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "about",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 1834,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "LYNX Curators",
+        "size": "33.15px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "article",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 2964,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "33.15px"
+      }
+    ]
+  }
+]
