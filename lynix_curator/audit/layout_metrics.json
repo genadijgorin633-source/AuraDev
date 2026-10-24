@@ -7,6 +7,10 @@
     "bodyHeight": 1157,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": "none"
+    },
     "fontSamples": []
   },
   {
@@ -17,6 +21,10 @@
     "bodyHeight": 1341,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Материалы по теме",
@@ -36,6 +44,10 @@
     "bodyHeight": 1341,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Материалы по теме",
@@ -59,6 +71,10 @@
     "bodyHeight": 2745,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Обучающие материалы",
@@ -102,6 +118,10 @@
     "bodyHeight": 1988,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Полезные инструменты",
@@ -145,6 +165,10 @@
     "bodyHeight": 1487,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Статистика проекта",
@@ -168,6 +192,10 @@
     "bodyHeight": 1227,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "LYNX Curators",
@@ -183,6 +211,10 @@
     "bodyHeight": 1831,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.2), rgba(2, 9, 22, 0.36) 54%, rgba(2, 8, 20, 0.65)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/desktop-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Криптовалюта: базовый курс",
@@ -198,6 +230,10 @@
     "bodyHeight": 1602,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": "none"
+    },
     "fontSamples": []
   },
   {
@@ -208,6 +244,10 @@
     "bodyHeight": 1747,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Материалы по теме",
@@ -227,6 +267,10 @@
     "bodyHeight": 2156,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Материалы по теме",
@@ -250,6 +294,10 @@
     "bodyHeight": 6493,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Обучающие материалы",
@@ -293,6 +341,10 @@
     "bodyHeight": 3989,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Полезные инструменты",
@@ -336,6 +388,10 @@
     "bodyHeight": 2183,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Статистика проекта",
@@ -359,6 +415,10 @@
     "bodyHeight": 1830,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "LYNX Curators",
@@ -374,6 +434,10 @@
     "bodyHeight": 2530,
     "brokenImages": [],
     "clippedText": [],
+    "backgrounds": {
+      "global": "linear-gradient(rgba(2, 8, 20, 0.28), rgba(2, 9, 22, 0.4) 44%, rgba(2, 8, 20, 0.73)), url(\"http://127.0.0.1:8799/lynix_curator/assets/directions/mobile-bg.svg\")",
+      "landing": null
+    },
     "fontSamples": [
       {
         "text": "Криптовалюта: базовый курс",
