@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+<defs>
+  <linearGradient id="g" x1="40" y1="20" x2="290" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#d5f8ff"/><stop offset=".23" stop-color="#23c9ff"/><stop offset=".75" stop-color="#0878e5"/><stop offset="1" stop-color="#0c3a83"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<path filter="url(#glow)" d="M70 35 122 35 122 231 261 231 261 282 70 282Z" fill="url(#g)"/>
+<path d="M92 58 111 58 111 246 239 246 239 267 92 267Z" fill="#05234a" opacity=".87"/>
+<path d="m70 35 22 23v209l-22 15Z" fill="#005aa7" opacity=".88"/>
+<path d="m122 35-11 23H92L70 35Z" fill="#ccfaff"/>
+<path d="m261 231-22 15v21l22 15Z" fill="#0866c7"/>
+<path filter="url(#glow)" d="M202 55H246V99H202Z" fill="url(#g)"/>
+<path d="M214 67h20v20h-20z" fill="#05356b"/>
+</svg>
