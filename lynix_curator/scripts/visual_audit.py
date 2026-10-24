@@ -32,6 +32,13 @@ with sync_playwright() as p:
             page.goto('http://127.0.0.1:8799/lynix_curator/'+anchor, wait_until='networkidle')
             page.wait_for_timeout(700)
             page.screenshot(path=str(out / f'{size}_{name}.jpg'), full_page=True, quality=58, type='jpeg')
+            if name == 'home' and size == 'desktop':
+                card = page.locator('.direction-tile').first
+                card.hover()
+                page.wait_for_timeout(500)
+                page.screenshot(path=str(out / 'desktop_home_hover.jpg'),
+                                full_page=True, quality=72, type='jpeg')
+
             issues = page.evaluate("""() => ({
               scrollWidth: document.documentElement.scrollWidth,
               clientWidth: document.documentElement.clientWidth,
@@ -43,6 +50,11 @@ with sync_playwright() as p:
                     el.scrollWidth > el.clientWidth + 4 && rect.left >= 0 && !el.classList.contains('direction-tile'); })
                 .slice(0, 12).map(el => ({tag: el.tagName, text: el.textContent.trim().slice(0, 80),
                   client: el.clientWidth, scroll: el.scrollWidth})),
+              backgrounds: {
+                global: getComputedStyle(document.body, '::before').backgroundImage,
+                landing: document.querySelector('.direction-landing')
+                  ? getComputedStyle(document.querySelector('.direction-landing')).backgroundImage : null
+              },
               fontSamples: [...document.querySelectorAll('.hero h1,.page-top h1,.section-header h2,.material-body h3,.tool-card h3')]
                 .slice(0, 8).map(el => ({text: el.textContent.trim().slice(0, 35),
                   size: getComputedStyle(el).fontSize}))
