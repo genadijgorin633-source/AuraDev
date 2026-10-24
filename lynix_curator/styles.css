@@ -16,7 +16,7 @@
 }
 .brand-shell img{display:block;object-fit:contain;width:30px;height:30px;max-width:82%;max-height:82%}
 .brand-notion,.brand-capcut,.brand-googletrends{background:#fff;border-color:rgba(255,255,255,.35)}
-.brand-chatgpt{background:#134d45;border-color:rgba(93,221,198,.36)}
+.brand-chatgpt{background:#ffffff;border-color:rgba(255,255,255,.65)}
 .brand-tradingview{background:#171e2c;border-color:rgba(114,147,183,.3)}
 .brand-telegram{background:linear-gradient(145deg,#0c2944,#061c33);border-color:rgba(55,190,253,.35)}
 .brand-figma{background:#161b2a}
@@ -28,3 +28,96 @@
 .search-brand-result .brand-shell{width:36px;height:36px;border-radius:10px}
 .search-brand-result .brand-shell img{width:24px;height:24px}
 .material-brand-img{display:block;width:72px;height:72px;filter:drop-shadow(0 0 20px rgba(30,165,255,.34))}
+
+
+/* Typography and spacing pass — keep text legible across breakpoints. */
+body{font-size:15px;line-height:1.6;overflow-wrap:break-word}
+.nav-links a{font-size:12.5px;letter-spacing:-.005em}
+.hero .desc{max-width:570px;line-height:1.72}
+.hero .tm{letter-spacing:.42em}
+.hero-tag{font-size:11.5px;max-width:178px}
+.section{padding-top:43px;padding-bottom:35px}
+.section-header{gap:24px;margin-bottom:23px}
+.section-header h2{font-size:27px;line-height:1.2}
+.section-header p{font-size:13px;line-height:1.6}
+.stat-kicker{font-size:12.5px;line-height:1.42}
+.stat-number{font-variant-numeric:tabular-nums}
+.material-body h3,.tool-card h3{overflow-wrap:normal;hyphens:auto}
+.material-body h3{font-size:15.5px;line-height:1.38;min-height:43px;margin-bottom:9px;letter-spacing:-.017em}
+.material-body .material-desc{font-size:12.5px;min-height:59px;line-height:1.56}
+.material-body .material-meta{font-size:11px;margin-top:13px;gap:10px}
+.tool-card h3{font-size:15px;line-height:1.4;letter-spacing:-.015em}
+.tool-card .subtitle{font-size:11.5px}
+.tool-card p{font-size:12.5px;line-height:1.6;min-height:61px}
+.tool-card .tool-top{gap:12px;margin-bottom:13px}
+.tool-card .rating{font-size:11.5px}
+.category-card{padding:16px 12px}
+.category-card b{font-size:12px;line-height:1.35}
+.category-card small{font-size:10px;line-height:1.3}
+.tag{font-size:10.5px;line-height:1.25;white-space:normal}
+.cover-badge{font-size:10px}
+.footer-links a{font-size:12px}
+.footer-top p{font-size:12px}
+.page-top p{font-size:14px;line-height:1.7}
+.page-top h1{line-height:1.09;max-width:850px}
+.results-count{font-size:12px}
+.pill-button{font-size:12px;padding:10px 14px}
+.searchbox input{font-size:13px}
+.featured h2{line-height:1.22;letter-spacing:-.025em}
+.featured p{font-size:13px;line-height:1.65}
+.article-panel h2{font-size:24px;line-height:1.28;letter-spacing:-.025em}
+.article-panel p{font-size:14.5px;line-height:1.83}
+.article-panel section{scroll-margin-top:100px}
+.toc-panel .toc-link{
+ display:block;width:100%;background:transparent;border:0;border-left:2px solid rgba(75,174,249,.28);
+ border-radius:0;padding:10px 12px;margin:0;text-align:left;color:#9bbad6;font-size:12.5px;
+ line-height:1.45;cursor:pointer;transition:color .2s,border-color .2s,background .2s
+}
+.toc-panel .toc-link:hover,.toc-panel .toc-link:focus-visible{color:#eaf7ff;border-left-color:#37cfff;background:rgba(44,160,255,.08)}
+.toc-panel h3{font-size:15px}
+.search-brand-result .brand-shell{flex-shrink:0}
+.featured-logo .feature-brand{background:#fff;border-color:rgba(255,255,255,.65)}
+.material-brand-img{width:88px;height:88px;max-width:none;object-fit:contain}
+@media(max-width:1100px){
+ .categories-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .material-body h3{min-height:0}
+}
+@media(max-width:760px){
+ .hero{padding-top:54px;min-height:unset;padding-bottom:47px}
+ .hero h1{line-height:1.02}
+ .hero .desc{font-size:13.5px;line-height:1.7}
+ .hero-tags{gap:16px}
+ .hero-tag{width:calc(50% - 10px);font-size:11px}
+ .stat-card{min-height:125px}
+ .section{padding-top:33px;padding-bottom:20px}
+ .section-header{align-items:start}
+ .section-header h2{font-size:23px}
+ .section-header p{font-size:12.5px}
+ .more-link{margin-top:5px;font-size:11.5px}
+ .material-cover{height:168px}
+ .material-body h3{font-size:16px;min-height:unset}
+ .material-body .material-desc{min-height:unset;font-size:13px}
+ .tool-card p{min-height:unset;font-size:13px}
+ .category-card b{font-size:12px}
+ .category-card small{font-size:10px}
+ .page-top h1{font-size:clamp(32px,8.5vw,44px);line-height:1.12}
+ .page-top{padding-top:36px}
+ .featured h2{font-size:23px}
+ .stats-heading{align-items:flex-start;gap:12px;flex-wrap:wrap}
+ .article-wrap{gap:15px}
+ .article-panel p{font-size:14px}
+ .article-panel{padding:19px}
+ .footer{margin-top:45px}
+ .footer-bottom{line-height:1.6}
+}
+@media(max-width:420px){
+ .brand-words strong{font-size:17px}
+ .hero-actions{gap:9px}
+ .hero-actions .button{padding:11px 13px;font-size:12px}
+ .header-actions{gap:7px}
+ .search-trigger{width:37px;height:37px}
+ .section-header{gap:8px}
+ .stat-number{font-size:34px}
+ .article-meta{gap:8px}
+ .article-nav .button{width:100%}
+}
