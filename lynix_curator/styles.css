@@ -5,3 +5,26 @@
 @media(max-width:760px){.shell{padding-left:18px;padding-right:18px}.header-inner{height:69px}.nav-links{display:none;position:absolute;left:12px;right:12px;top:76px;flex-direction:column;align-items:stretch;padding:12px;background:#081628;border:1px solid rgba(78,169,248,.3);border-radius:16px;box-shadow:0 20px 70px #0008}.nav-links.open{display:flex}.nav-links a.active:after{display:none}.nav-links a.active{background:rgba(0,145,255,.13)}.menu-btn{display:grid}.login-btn{display:none}.hero{padding-top:60px;min-height:595px}.hero-content{width:100%}.hero h1{font-size:clamp(50px,11vw,73px)}.hero .desc{font-size:13px;max-width:420px}.float-code{opacity:.18;right:-200px;top:35%;pointer-events:none}.hero-tags{margin-top:30px;gap:15px}.hero-tag{width:calc(50% - 8px)}.section{padding-top:35px;padding-bottom:22px}.stat-grid{grid-template-columns:1fr;gap:10px}.stat-card{min-height:132px;padding:18px}.card-grid,.listing-grid,.tool-listing,.info-tiles,.about-layout{grid-template-columns:1fr}.categories-grid{grid-template-columns:repeat(2,1fr)}.section-header h2{font-size:23px}.section-header p{font-size:12px}.material-cover{height:180px}.footer-top{flex-direction:column}.footer-note{text-align:left}.community{flex-direction:column;align-items:stretch}.page-top{padding-top:39px}.toolbar .searchbox{min-width:100%}.article-wrap{grid-template-columns:1fr}.toc-panel{position:static;grid-row:1}.article-panel{padding:20px}.featured{flex-direction:column;align-items:flex-start}.article-nav{flex-direction:column}.float-code svg{width:340px}}
 @media(max-width:420px){.hero-tags{gap:11px}.hero-tag{font-size:10px}.hero-tag .tiny-icon{width:33px;height:33px}.brand-words strong{font-size:17px}.brand-words small{font-size:7px}.categories-grid{gap:9px}.category-card{padding:11px 8px}.category-card .category-icon{width:34px;height:34px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Locally-hosted, unmodified brand mark silhouettes. Individual assets remain SVG. */
+.brand-shell{
+  position:relative;display:grid;place-items:center;flex:none;width:46px;height:46px;
+  border-radius:13px;border:1px solid rgba(112,186,246,.2);
+  background:linear-gradient(145deg,#102941,#081629);
+  box-shadow:inset 0 1px rgba(255,255,255,.07);
+  overflow:hidden;
+}
+.brand-shell img{display:block;object-fit:contain;width:30px;height:30px;max-width:82%;max-height:82%}
+.brand-notion,.brand-capcut,.brand-googletrends{background:#fff;border-color:rgba(255,255,255,.35)}
+.brand-chatgpt{background:#134d45;border-color:rgba(93,221,198,.36)}
+.brand-tradingview{background:#171e2c;border-color:rgba(114,147,183,.3)}
+.brand-telegram{background:linear-gradient(145deg,#0c2944,#061c33);border-color:rgba(55,190,253,.35)}
+.brand-figma{background:#161b2a}
+.brand-canva{background:#082e44}
+.brand-github{background:#202634;border-color:rgba(190,209,232,.2)}
+.featured-logo .feature-brand{width:100px;height:100px;border-radius:25px;box-shadow:0 10px 36px rgba(0,177,255,.15)}
+.featured-logo .feature-brand img{width:74px;height:74px}
+.search-brand-result{display:flex;align-items:center;gap:12px}
+.search-brand-result .brand-shell{width:36px;height:36px;border-radius:10px}
+.search-brand-result .brand-shell img{width:24px;height:24px}
+.material-brand-img{display:block;width:72px;height:72px;filter:drop-shadow(0 0 20px rgba(30,165,255,.34))}
