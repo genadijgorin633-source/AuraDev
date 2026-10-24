@@ -113,7 +113,7 @@ const DIRECTIONS = [
 function directionTile(d){
   return '<a href="#/direction/'+esc(d.id)+'" class="direction-tile direction-'+esc(d.id)+'" aria-label="Открыть направление '+esc(d.title)+'">'+
     '<div class="direction-art" aria-hidden="true"><img src="assets/directions/'+esc(d.art)+'" alt="" width="420" height="420" loading="eager" decoding="async"></div>'+
-    '<div class="direction-copy"><span class="direction-label">'+esc(d.caption)+'</span><h2>'+esc(d.title)+'</h2><p>'+esc(d.description)+'</p>'+
+    '<div class="direction-copy"><span class="direction-label">'+esc(d.caption)+'</span><h2>'+esc(d.title)+'</h2><p class="direction-long">'+esc(d.description)+'</p><p class="direction-short">'+esc(d.short)+'</p>'+
     '<span class="direction-arrow">'+ic('arrow')+'</span></div></a>'
 }
 function hero(){
