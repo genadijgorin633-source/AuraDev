@@ -5,12 +5,7 @@
     "scrollWidth": 1440,
     "clientWidth": 1440,
     "bodyHeight": 1157,
-    "brokenImages": [
-      "assets/directions/nft.avif",
-      "assets/directions/trade.avif",
-      "assets/directions/escort.avif",
-      "assets/directions/transfer.avif"
-    ],
+    "brokenImages": [],
     "clippedText": [
       {
         "tag": "A",
@@ -184,12 +179,7 @@
     "scrollWidth": 390,
     "clientWidth": 390,
     "bodyHeight": 1602,
-    "brokenImages": [
-      "assets/directions/nft.avif",
-      "assets/directions/trade.avif",
-      "assets/directions/escort.avif",
-      "assets/directions/transfer.avif"
-    ],
+    "brokenImages": [],
     "clippedText": [
       {
         "tag": "A",
