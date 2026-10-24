@@ -27,7 +27,7 @@ with sync_playwright() as p:
         for name, anchor in pages.items():
             page = browser.new_page(viewport=viewport,device_scale_factor=1)
             page.goto('http://127.0.0.1:8799/lynix_curator/'+anchor, wait_until='networkidle')
-            page.screenshot(path=str(out / f'{size}_{name}.png'), full_page=True)
+            page.screenshot(path=str(out / f'{size}_{name}.jpg'), full_page=True, quality=58, type='jpeg')
             print(size,name,'scroll',page.evaluate('document.documentElement.scrollWidth'),'viewport',viewport['width'])
             page.close()
     browser.close()
