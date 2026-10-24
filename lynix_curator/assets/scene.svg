@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 840" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#030916"/><stop offset=".55" stop-color="#05162c"/><stop offset="1" stop-color="#03101e"/></linearGradient>
+ <radialGradient id="halo" cx=".78" cy=".33" r=".42"><stop stop-color="#1394ff" stop-opacity=".53"/><stop offset=".48" stop-color="#0653a5" stop-opacity=".3"/><stop offset="1" stop-color="#042346" stop-opacity="0"/></radialGradient>
+ <radialGradient id="planet" cx=".37" cy=".29" r=".8"><stop stop-color="#1b6eb5"/><stop offset=".36" stop-color="#073366"/><stop offset=".84" stop-color="#04102c"/><stop offset="1" stop-color="#000712"/></radialGradient>
+ <linearGradient id="mount" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0756a6"/><stop offset=".24" stop-color="#052648"/><stop offset="1" stop-color="#020917"/></linearGradient>
+ <filter id="f"><feGaussianBlur stdDeviation="26"/></filter>
+ <filter id="light"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1920" height="840" fill="url(#sky)"/>
+<rect width="1920" height="840" fill="url(#halo)"/>
+<ellipse cx="1460" cy="310" rx="420" ry="410" fill="#0567cc" opacity=".17" filter="url(#f)"/>
+<circle cx="1460" cy="268" r="335" fill="url(#planet)" stroke="#0c84ff" stroke-width="5" stroke-opacity=".7"/>
+<circle cx="1460" cy="268" r="342" fill="none" stroke="#38cfff" stroke-opacity=".26" stroke-width="16" filter="url(#light)"/>
+<g fill="none" stroke="#399efa" stroke-opacity=".12"><ellipse cx="1460" cy="268" rx="330" ry="100" transform="rotate(-24 1460 268)"/><ellipse cx="1460" cy="268" rx="320" ry="200" transform="rotate(33 1460 268)"/></g>
+<g stroke="#40caff" stroke-width="2.4" stroke-opacity=".85" filter="url(#light)" fill="none"><path d="M1060 245 1100 227l60-26"/><path d="M1665 93l130-65"/></g>
+<g fill="#e1f7ff" opacity=".95"><circle cx="220" cy="100" r="2"/><circle cx="350" cy="220" r="1.5"/><circle cx="580" cy="60" r="1.9"/><circle cx="725" cy="163" r="1.2"/><circle cx="840" cy="88" r="2.1"/><circle cx="986" cy="168" r="1.1"/><circle cx="1082" cy="52" r="1.9"/><circle cx="1270" cy="150" r="1.2"/><circle cx="1717" cy="74" r="1.8"/><circle cx="1842" cy="272" r="1.4"/><circle cx="122" cy="330" r="1.7"/><circle cx="450" cy="310" r="1.1"/><circle cx="915" cy="297" r="1.4"/><circle cx="1669" cy="379" r="1.1"/><circle cx="1832" cy="97" r="1.4"/><circle cx="1534" cy="40" r="1.2"/></g>
+<g opacity=".4" stroke="#25b5ff" stroke-width="1"><path d="M980 0v545M1026 60v510M1200 20v462"/><path d="M840 292h1080M982 324h938"/></g>
+<path d="M0 622 130 550 197 590 267 482 332 589 405 510 473 589 551 472 612 590 708 548 796 599 887 488 950 563 1012 477 1071 564 1146 410 1207 533 1298 436 1392 550 1460 468 1549 549 1625 411 1718 553 1818 466 1920 565V840H0Z" fill="url(#mount)"/>
+<path d="M0 684 160 575 210 626 293 530 360 654 441 583 525 678 621 583 718 683 823 605 925 685 1017 578 1110 671 1180 594 1277 657 1365 575 1443 654 1512 565 1600 649 1688 596 1770 652 1835 575 1920 646V840H0Z" fill="#031122"/>
+<path d="M0 692 253 627 359 650 485 590 613 649 771 608 887 638 998 593 1182 650 1320 588 1460 663 1616 600 1766 656 1920 618" stroke="#2eafff" stroke-opacity=".23" stroke-width="3" fill="none" filter="url(#light)"/>
+<path d="M0 736 230 713 430 744 740 708 977 751 1269 706 1546 734 1920 711V840H0Z" fill="#030b18" opacity=".8"/>
+</svg>
