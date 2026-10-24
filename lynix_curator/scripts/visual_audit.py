@@ -15,6 +15,8 @@ if not chrome:
     raise SystemExit('Chrome/Chromium not installed on runner')
 pages = {
  'home': '#/',
+ 'direction-nft': '#/direction/nft',
+ 'direction-escort': '#/direction/escort',
  'materials': '#/materials',
  'tools': '#/tools',
  'statistics': '#/statistics',
@@ -28,6 +30,7 @@ with sync_playwright() as p:
         for name, anchor in pages.items():
             page = browser.new_page(viewport=viewport,device_scale_factor=1)
             page.goto('http://127.0.0.1:8799/lynix_curator/'+anchor, wait_until='networkidle')
+            page.wait_for_timeout(700)
             page.screenshot(path=str(out / f'{size}_{name}.jpg'), full_page=True, quality=58, type='jpeg')
             issues = page.evaluate("""() => ({
               scrollWidth: document.documentElement.scrollWidth,
