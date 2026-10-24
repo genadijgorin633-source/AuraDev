@@ -4,43 +4,15 @@
     "page": "home",
     "scrollWidth": 1440,
     "clientWidth": 1440,
-    "bodyHeight": 2619,
-    "brokenImages": [],
+    "bodyHeight": 2835,
+    "brokenImages": [
+      "assets/directions/nft.avif",
+      "assets/directions/trade.avif",
+      "assets/directions/escort.avif",
+      "assets/directions/transfer.avif"
+    ],
     "clippedText": [],
-    "fontSamples": [
-      {
-        "text": "LYNXCurators",
-        "size": "106px"
-      },
-      {
-        "text": "Рекомендуемые материалы",
-        "size": "27px"
-      },
-      {
-        "text": "Полный гайд по заработку в интернет",
-        "size": "15.5px"
-      },
-      {
-        "text": "Арбитраж трафика с нуля",
-        "size": "15.5px"
-      },
-      {
-        "text": "Криптовалюта: базовый курс",
-        "size": "15.5px"
-      },
-      {
-        "text": "Продуктивность и саморазвитие",
-        "size": "15.5px"
-      },
-      {
-        "text": "Полезные инструменты",
-        "size": "27px"
-      },
-      {
-        "text": "Notion",
-        "size": "15px"
-      }
-    ]
+    "fontSamples": []
   },
   {
     "viewport": "desktop",
@@ -184,45 +156,17 @@
   {
     "viewport": "mobile",
     "page": "home",
-    "scrollWidth": 390,
+    "scrollWidth": 438,
     "clientWidth": 390,
-    "bodyHeight": 4980,
-    "brokenImages": [],
+    "bodyHeight": 3163,
+    "brokenImages": [
+      "assets/directions/nft.avif",
+      "assets/directions/trade.avif",
+      "assets/directions/escort.avif",
+      "assets/directions/transfer.avif"
+    ],
     "clippedText": [],
-    "fontSamples": [
-      {
-        "text": "LYNXCurators",
-        "size": "50px"
-      },
-      {
-        "text": "Рекомендуемые материалы",
-        "size": "23px"
-      },
-      {
-        "text": "Полный гайд по заработку в интернет",
-        "size": "16px"
-      },
-      {
-        "text": "Арбитраж трафика с нуля",
-        "size": "16px"
-      },
-      {
-        "text": "Криптовалюта: базовый курс",
-        "size": "16px"
-      },
-      {
-        "text": "Продуктивность и саморазвитие",
-        "size": "16px"
-      },
-      {
-        "text": "Полезные инструменты",
-        "size": "23px"
-      },
-      {
-        "text": "Notion",
-        "size": "15px"
-      }
-    ]
+    "fontSamples": []
   },
   {
     "viewport": "mobile",
