@@ -173,8 +173,7 @@ body:has(.direction-landing) .footer{margin-top:0;background:linear-gradient(180
   position:relative;min-height:calc(100svh - 75px);
   overflow:hidden;isolation:isolate;padding:66px 0 80px;
   background:linear-gradient(180deg,rgba(1,9,22,.42),rgba(1,11,27,.12) 45%,rgba(2,8,19,.32) 82%,#020a16),
-             url('assets/directions/desktop-bg.avif') center center/cover no-repeat,
-             url('assets/directions/desktop-bg.svg') center center/cover no-repeat;
+             url('assets/directions/desktop-bg.svg') center top/cover no-repeat;
 }
 .direction-landing:before{content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;
  background:radial-gradient(ellipse 700px 290px at 50% 28%,rgba(0,9,24,.55),transparent 80%),
@@ -259,7 +258,6 @@ body:has(.direction-landing) .footer{margin-top:0;background:linear-gradient(180
  .direction-landing{
    min-height:calc(100svh - 65px);padding:54px 0 63px;
    background:linear-gradient(180deg,rgba(2,10,24,.38),rgba(2,10,24,.35) 35%,rgba(2,8,20,.5) 80%,#020a16),
-              url('assets/directions/mobile-bg.avif') center top/cover no-repeat,
               url('assets/directions/mobile-bg.svg') center top/cover no-repeat;
  }
  .direction-landing:before{background:radial-gradient(ellipse 430px 240px at 50% 14%,rgba(2,10,25,.55),transparent 80%)}
@@ -290,4 +288,105 @@ body:has(.direction-landing) .footer{margin-top:0;background:linear-gradient(180
  .direction-copy h2{font-size:24px}
  .direction-label{letter-spacing:0}
  .direction-art{inset:-13px -12% -13px 38%}
+}
+
+
+/* VISUAL QA 2026-10-24: shared scalable space scene and restrained interactions */
+html {background:#020815}
+body {
+ background:transparent;
+ position:relative;
+ isolation:isolate;
+}
+body::before {
+ content:"";
+ position:fixed;
+ inset:0;
+ z-index:-2;
+ pointer-events:none;
+ opacity:1;
+ background:
+   linear-gradient(180deg,rgba(2,8,20,.20),rgba(2,9,22,.36) 54%,rgba(2,8,20,.65)),
+   url("assets/directions/desktop-bg.svg") center top / cover no-repeat;
+}
+.ambient {display:none !important}
+main, #app {background:transparent}
+.page-top, .section, .direction-detail{background:transparent}
+.site-header {
+ background:rgba(2,9,21,.73);
+ backdrop-filter:blur(18px);
+ border-bottom:1px solid rgba(99,163,222,.19);
+}
+.footer{background:rgba(2,8,18,.85);border-top:1px solid rgba(91,153,207,.14)}
+body:has(.direction-landing) {background:transparent}
+body:has(.direction-landing) .footer{background:rgba(2,8,18,.88)}
+.direction-landing {
+ background:transparent;
+ padding-top:66px;
+}
+/* Keep backgrounds behind the content consistent instead of switching images per section */
+.direction-landing::before{
+ background:radial-gradient(ellipse 690px 250px at 50% 27%,rgba(2,8,21,.5),transparent 80%);
+}
+.direction-detail-hero{background:linear-gradient(110deg,rgba(4,18,37,.91),rgba(5,27,51,.78))}
+.panel,.article-panel,.toc-panel,.stat-card,.material-card,.tool-card{
+ backdrop-filter:blur(5px);
+}
+.direction-tile {
+ border:1px solid rgba(91,163,219,.53);
+ background:linear-gradient(135deg,rgba(4,16,33,.96),rgba(4,21,45,.90));
+ box-shadow:0 10px 30px rgba(0,0,0,.33), inset 0 1px 0 rgba(200,235,255,.055);
+ transform:none;
+ transition:transform .23s ease,border-color .23s ease,box-shadow .23s ease;
+}
+.direction-tile:hover{
+ transform:translateY(-1px);
+ border-color:rgba(125,194,245,.78);
+ box-shadow:0 15px 34px rgba(0,0,0,.42),inset 0 1px 0 rgba(205,238,255,.09);
+}
+.direction-tile::after{box-shadow:none}
+.direction-tile::before{
+ background:linear-gradient(90deg,rgba(3,13,28,.97) 0%,rgba(3,13,29,.88) 35%,rgba(3,14,32,.30) 69%,rgba(3,14,32,.06) 100%);
+}
+.direction-art {
+ background:radial-gradient(ellipse at 55% 55%,rgba(11,83,156,.12),transparent 66%);
+}
+.direction-art img {
+ filter:none;
+ transform:none;
+ transition:transform .23s ease;
+}
+.direction-tile:hover .direction-art img{transform:scale(1.012)}
+.direction-arrow{
+ border-color:rgba(95,180,240,.67);
+ color:#c3e8ff;
+ background:rgba(5,25,50,.75);
+ box-shadow:none;
+ transition:background-color .22s,border-color .22s,transform .22s;
+}
+.direction-tile:hover .direction-arrow{
+ background:rgba(13,64,107,.82);
+ border-color:rgba(120,211,255,.8);
+ transform:translateX(2px);
+}
+@media(max-width:760px){
+ body::before{
+   background:
+     linear-gradient(180deg,rgba(2,8,20,.28),rgba(2,9,22,.4) 44%,rgba(2,8,20,.73)),
+     url("assets/directions/mobile-bg.svg") center top / cover no-repeat;
+ }
+ .direction-landing{
+   background:transparent;
+   padding-top:54px;
+ }
+ .direction-landing::before{
+   background:radial-gradient(ellipse 390px 195px at 50% 13%,rgba(2,10,23,.45),transparent 80%);
+ }
+ .direction-art img{transform:none}
+ .direction-tile:hover{transform:none}
+ .direction-tile:hover .direction-art img{transform:none}
+ .panel,.article-panel,.toc-panel,.stat-card,.material-card,.tool-card{backdrop-filter:blur(3px)}
+}
+@media(prefers-reduced-motion:reduce) {
+ .direction-tile,.direction-art img,.direction-arrow{transition:none!important}
 }
