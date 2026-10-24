@@ -186,51 +186,9 @@
     "page": "home",
     "scrollWidth": 390,
     "clientWidth": 390,
-    "bodyHeight": 4927,
-    "brokenImages": [
-      "assets/brands/notion.svg",
-      "assets/brands/chatgpt.svg",
-      "assets/brands/tradingview.svg",
-      "assets/brands/capcut.svg"
-    ],
-    "clippedText": [
-      {
-        "tag": "A",
-        "text": "Заработок8 материалов",
-        "client": 110,
-        "scroll": 133
-      },
-      {
-        "tag": "A",
-        "text": "Криптовалюта6 материалов",
-        "client": 110,
-        "scroll": 158
-      },
-      {
-        "tag": "A",
-        "text": "Маркетинг9 материалов",
-        "client": 110,
-        "scroll": 135
-      },
-      {
-        "tag": "A",
-        "text": "Развитие7 материалов",
-        "client": 110,
-        "scroll": 128
-      },
-      {
-        "tag": "A",
-        "text": "Инструменты11 материалов",
-        "client": 110,
-        "scroll": 154
-      },
-      {
-        "tag": "A",
-        "text": "Дизайн8 материалов",
-        "client": 110,
-        "scroll": 128
-      }
-    ],
+    "bodyHeight": 4980,
+    "brokenImages": [],
+    "clippedText": [],
     "fontSamples": [
       {
         "text": "LYNXCurators",
@@ -272,9 +230,7 @@
     "scrollWidth": 390,
     "clientWidth": 390,
     "bodyHeight": 6497,
-    "brokenImages": [
-      "assets/brands/telegram.svg"
-    ],
+    "brokenImages": [],
     "clippedText": [],
     "fontSamples": [
       {
@@ -317,13 +273,7 @@
     "scrollWidth": 390,
     "clientWidth": 390,
     "bodyHeight": 3993,
-    "brokenImages": [
-      "assets/brands/telegram.svg",
-      "assets/brands/figma.svg",
-      "assets/brands/canva.svg",
-      "assets/brands/googletrends.svg",
-      "assets/brands/github.svg"
-    ],
+    "brokenImages": [],
     "clippedText": [],
     "fontSamples": [
       {
@@ -403,7 +353,7 @@
     "page": "article",
     "scrollWidth": 390,
     "clientWidth": 390,
-    "bodyHeight": 2964,
+    "bodyHeight": 2534,
     "brokenImages": [],
     "clippedText": [],
     "fontSamples": [
