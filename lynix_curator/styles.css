@@ -173,7 +173,7 @@ body:has(.direction-landing) .footer{margin-top:0;background:linear-gradient(180
   position:relative;min-height:calc(100svh - 75px);
   overflow:hidden;isolation:isolate;padding:66px 0 80px;
   background:linear-gradient(180deg,rgba(1,9,22,.42),rgba(1,11,27,.12) 45%,rgba(2,8,19,.32) 82%,#020a16),
-             url('assets/directions/desktop-bg.avif') center center/cover no-repeat;
+             url('assets/directions/desktop-bg.svg') center center/cover no-repeat;
 }
 .direction-landing:before{content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;
  background:radial-gradient(ellipse 700px 290px at 50% 28%,rgba(0,9,24,.55),transparent 80%),
@@ -258,7 +258,7 @@ body:has(.direction-landing) .footer{margin-top:0;background:linear-gradient(180
  .direction-landing{
    min-height:calc(100svh - 65px);padding:54px 0 63px;
    background:linear-gradient(180deg,rgba(2,10,24,.38),rgba(2,10,24,.35) 35%,rgba(2,8,20,.5) 80%,#020a16),
-              url('assets/directions/mobile-bg.avif') center top/cover no-repeat;
+              url('assets/directions/mobile-bg.svg') center top/cover no-repeat;
  }
  .direction-landing:before{background:radial-gradient(ellipse 430px 240px at 50% 14%,rgba(2,10,25,.55),transparent 80%)}
  .direction-heading{margin-bottom:30px}
