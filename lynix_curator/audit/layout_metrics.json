@@ -36,6 +36,48 @@
   },
   {
     "viewport": "desktop",
+    "page": "direction-nft",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 1341,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Материалы по теме",
+        "size": "27px"
+      },
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "17px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "page": "direction-escort",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "bodyHeight": 1341,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Материалы по теме",
+        "size": "27px"
+      },
+      {
+        "text": "Продуктивность и саморазвитие",
+        "size": "17px"
+      },
+      {
+        "text": "Личный бюджет: основы",
+        "size": "17px"
+      }
+    ]
+  },
+  {
+    "viewport": "desktop",
     "page": "materials",
     "scrollWidth": 1440,
     "clientWidth": 1440,
@@ -207,6 +249,48 @@
       }
     ],
     "fontSamples": []
+  },
+  {
+    "viewport": "mobile",
+    "page": "direction-nft",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 1747,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Материалы по теме",
+        "size": "23px"
+      },
+      {
+        "text": "Криптовалюта: базовый курс",
+        "size": "17px"
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "page": "direction-escort",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 2156,
+    "brokenImages": [],
+    "clippedText": [],
+    "fontSamples": [
+      {
+        "text": "Материалы по теме",
+        "size": "23px"
+      },
+      {
+        "text": "Продуктивность и саморазвитие",
+        "size": "17px"
+      },
+      {
+        "text": "Личный бюджет: основы",
+        "size": "17px"
+      }
+    ]
   },
   {
     "viewport": "mobile",
