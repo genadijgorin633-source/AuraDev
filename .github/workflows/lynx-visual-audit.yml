@@ -5,7 +5,8 @@ on:
       - '.github/workflows/lynx-visual-audit.yml'
       - 'lynix_curator/index.html'
       - 'lynix_curator/styles.css'
-      - 'lynix_curator/app.js'\n      - 'lynix_curator/scripts/visual_audit.py'
+      - 'lynix_curator/app.js'
+      - 'lynix_curator/scripts/visual_audit.py'
   workflow_dispatch:
 permissions:
   contents: write
