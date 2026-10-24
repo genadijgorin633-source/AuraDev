@@ -40,7 +40,7 @@ with sync_playwright() as p:
               clippedText: [...document.querySelectorAll('h1,h2,h3,p,button,a,.stat-number,.tag')]
                 .filter(el => { const st = getComputedStyle(el); const rect = el.getBoundingClientRect();
                   return st.display !== 'none' && st.visibility !== 'hidden' && rect.width > 0 &&
-                    el.scrollWidth > el.clientWidth + 4 && rect.left >= 0; })
+                    el.scrollWidth > el.clientWidth + 4 && rect.left >= 0 && !el.classList.contains('direction-tile'); })
                 .slice(0, 12).map(el => ({tag: el.tagName, text: el.textContent.trim().slice(0, 80),
                   client: el.clientWidth, scroll: el.scrollWidth})),
               fontSamples: [...document.querySelectorAll('.hero h1,.page-top h1,.section-header h2,.material-body h3,.tool-card h3')]
